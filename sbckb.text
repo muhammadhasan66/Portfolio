@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBJECT</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            background-color: gray;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            
+            color: black;
+        }
+        .name {
+            font-size: x-large ;
+            background-color: black;
+            color: white;
+            
+        }
+        li {
+            display: inline-block ;
+            text-decoration: none;
+            padding: 34px;
+        }
+        .right {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="right">
+            <li> Muhammad Hasan</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+
+    
+   <script src="oject.js"></script> 
+</body>
+</html>
